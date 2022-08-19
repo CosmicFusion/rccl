@@ -17,6 +17,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdlib.h>     /* malloc, calloc, realloc, free */
 
 #ifdef HAVE_CPLUS_DEMANGLE
 #define HAVE_DECL_BASENAME 1
